@@ -16,7 +16,7 @@ Group the training data based on the relevance it belongs to.
 According to the training data, we have 13 different relevance classes. 
 
 For each group, calculate the average of the calculated cosine similarity of product titles, calculate the average of the calculated cosine similarity of product descriptions and calculate the average of the calculated cosine similarity of product attributes with the training search term. 
-By doing this, we will have calculated average points of 13 different relevance classes.
+By doing this, we would have calculated average points of 13 different relevance classes.
 
 For each test data pair of cosine similarity of search term and product title, product description and product attributes, using Euclidean distance, find the nearest neighbor to the calculated average points of different relevance. 
 
